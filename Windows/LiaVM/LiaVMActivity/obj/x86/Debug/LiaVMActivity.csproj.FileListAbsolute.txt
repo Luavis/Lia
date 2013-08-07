@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\bin\Debug\LiaVMActivity.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\bin\Debug\LiaVMActivity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\bin\Debug\IPCObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\bin\Debug\LiaInterpreter.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\bin\Debug\IPCObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\bin\Debug\LiaInterpreter.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\LiaVMLibrary.LiaGeneralForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\LiaVMActivity.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\LiaVMActivity.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\LiaVMActivity\obj\x86\Debug\LiaVMActivity.pdb

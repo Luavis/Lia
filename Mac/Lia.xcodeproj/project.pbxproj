@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A72FB0AC16473FE2002CF710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72FB0A416473FE2002CF710 /* LiaVMActivity.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7EECBA5162C366D00D7D0A2;
+			remoteInfo = LiaVMActivity;
+		};
+		A72FB0B616473FF9002CF710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72FB0AE16473FF9002CF710 /* LiaVM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7EECBD1162C368C00D7D0A2;
+			remoteInfo = LiaVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A72FB0A416473FE2002CF710 /* LiaVMActivity.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LiaVMActivity.xcodeproj; path = LiaVMActivity/LiaVMActivity.xcodeproj; sourceTree = "<group>"; };
+		A72FB0AE16473FF9002CF710 /* LiaVM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LiaVM.xcodeproj; path = LiaVM/LiaVM.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A72FB0A516473FE2002CF710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72FB0AD16473FE2002CF710 /* LiaVMActivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A72FB0AF16473FF9002CF710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72FB0B716473FF9002CF710 /* LiaVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C6CAC416473E8900A72C7B = {
+			isa = PBXGroup;
+			children = (
+				A72FB0AE16473FF9002CF710 /* LiaVM.xcodeproj */,
+				A72FB0A416473FE2002CF710 /* LiaVMActivity.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A7C6CAC616473E8900A72C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = A7C6CAC916473E8900A72C7B /* Build configuration list for PBXProject "Lia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7C6CAC416473E8900A72C7B;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A72FB0AF16473FF9002CF710 /* Products */;
+					ProjectRef = A72FB0AE16473FF9002CF710 /* LiaVM.xcodeproj */;
+				},
+				{
+					ProductGroup = A72FB0A516473FE2002CF710 /* Products */;
+					ProjectRef = A72FB0A416473FE2002CF710 /* LiaVMActivity.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A72FB0AD16473FE2002CF710 /* LiaVMActivity.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LiaVMActivity.app;
+			remoteRef = A72FB0AC16473FE2002CF710 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A72FB0B716473FF9002CF710 /* LiaVM.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LiaVM.app;
+			remoteRef = A72FB0B616473FF9002CF710 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		A7C6CACB16473E8900A72C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A7C6CACC16473E8900A72C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7C6CAC916473E8900A72C7B /* Build configuration list for PBXProject "Lia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C6CACB16473E8900A72C7B /* Debug */,
+				A7C6CACC16473E8900A72C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7C6CAC616473E8900A72C7B /* Project object */;
+}

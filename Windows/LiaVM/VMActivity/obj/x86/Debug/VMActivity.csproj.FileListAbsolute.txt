@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\bin\Debug\VMActivity.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\bin\Debug\VMActivity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\bin\Debug\IPCObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\bin\Debug\IPCObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\obj\x86\Debug\VMActivity.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\obj\x86\Debug\VMActivity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\bin\Debug\LiaInterpreter.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\VMActivity\bin\Debug\LiaInterpreter.pdb

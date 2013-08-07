@@ -1,0 +1,497 @@
+
+@class Window()
+{
+	if(LIA_TARGET == "MAC")
+
+	{
+		
+		this.obj = dyGen("LiaWindow");
+
+	}
+	else
+
+	{
+
+		this.obj = dyGen("LiaVMLibrary.LiaWindow");
+	
+	}
+	
+	this.showWindow = @func(title)
+	{
+		if(LIA_TARGET == "MAC")
+		{
+			dyCall(this.obj,"showWindow:",[]);
+			dyCall(this.obj,"setTitle:",[title]);
+		}
+		else
+		{
+			dyCall(this.obj,"ShowWindow",[]);
+			dyCall(this.obj,"SetTitle",[title]);
+		}
+	};
+	
+	this.closeWindow = @func()
+	{
+		if(LIA_TARGET == "MAC")
+		{
+			dyCall(this.obj, "removeWindow:", []);
+		}
+		else
+		{
+			dyCall(this.obj, "RemoveWindow", []);
+		}
+	};
+	
+	this.addComponent = @func(compo)
+	{
+		if(LIA_TARGET == "MAC")
+		{
+			dyCall(this.obj, "addComponent:", [compo]);
+		}
+		else
+		{
+			dyCall(this.obj, "AddComponent", [compo]);
+		}
+	};
+	
+	this.size = @func()
+	{
+		if(LIA_TARGET == "MAC")
+		{
+			return dyCall(this.obj,"size:",[]);
+		}
+		else
+		{
+			return dyCall(this.obj,"Size",[]);
+		}
+	};
+}
+@class Label()
+{
+	if(LIA_TARGET == "MAC")
+
+	{
+		
+		this.obj = dyGen("LiaLabel");
+	}
+	else
+
+	{
+
+		this.obj = dyGen("LiaVMLibrary.LiaLabel");
+	}
+	
+	
+	this.setText = @func(text)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setText:", [text]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "SetText", [text]);
+		}
+	};
+	
+	this.setSize = @func(w, h)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setSize:", [w, h]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "SetSize", [w, h]);
+		}
+	};
+	
+	this.setPosition = @func(x, y)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setPosition:", [x, y]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "SetPosition", [x, y]);
+		}
+	};
+	
+	this.position = @func()
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			return dyCall(this.obj,"position:",[]);
+		}
+		else
+
+		{
+
+			return dyCall(this.obj,"Position",[]);
+		}
+	};
+	
+	this.size = @func()
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			return dyCall(this.obj,"size:",[]);
+		}
+		else
+
+		{
+
+			return dyCall(this.obj,"Size",[]);
+		}
+	};
+	
+	this.text = @func()
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			return dyCall(this.obj,"text:",[]);
+		}
+		else
+
+		{
+
+			return dyCall(this.obj,"Text",[]);
+		}	
+	};
+}
+
+
+@class Button()
+{
+	if(LIA_TARGET == "MAC")
+
+	{
+		
+		this.obj = dyGen("LiaButton");
+	}
+	else
+
+	{
+
+		this.obj = dyGen("LiaVMLibrary.LiaButton");
+	}
+	
+	this.setText = @func(text)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setText:",[text]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "SetText",[text]);
+		}
+	};
+	
+	this.setSize = @func(w, h)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setSize:",[w,h]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "SetSize", [w,h]);
+		}
+	};
+	
+	this.setPosition = @func(x, y)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setPosition:", [x,y]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "SetPosition", [x,y]);
+		}
+	};
+	
+	this.setClick = @func(sel)
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			dyCall(this.obj, "setClick:", [sel]);
+		}
+		else
+
+		{
+
+			dyCall(this.obj, "setClick", [sel]);
+		}
+	};
+	
+	this.position = @func()
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			return dyCall(this.obj,"position:",[]);
+		}
+		else
+
+		{
+
+			return dyCall(this.obj,"Position",[]);
+		}
+	};
+	
+	this.size = @func()
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			return dyCall(this.obj,"size:",[]);
+		}
+		else
+
+		{
+
+			return dyCall(this.obj,"Size",[]);
+		}
+	};
+	
+	this.text = @func()
+	{
+		if(LIA_TARGET == "MAC")
+
+		{
+		
+			return dyCall(this.obj,"text:",[]);
+		}
+		else
+
+		{
+
+			return dyCall(this.obj,"Text",[]);
+		}
+	};
+}
+
+var label;
+var buttonSize = 40;
+var window;
+
+var op = 0;
+var ret = 0;
+var flag = 0;
+
+@func click(id)
+{
+	print("Click");
+	
+	if(flag == 1)
+	{
+		op = 0;
+		ret = 0;
+		label.setText("");
+		flag = 0;
+	}
+	if(id == "+" || id == "/" || id == "*" || id == "-" || id == "=" || id == "MC")
+	{
+		if(id == "+")
+		{
+			var num = parseFloat(label.text());
+			print(num);
+			if(op == 0)
+			{
+				ret = num;
+			}
+			else
+			{
+				ret = ret + num;
+			}
+			op = 1;
+		}
+		else if(id == "-")
+		{
+			var num = parseFloat(label.text());
+			if(op == 0)
+			{
+				ret = num;
+			}
+			else
+			{
+				ret = ret - num;
+			}
+			op = 2;
+		}
+		else if(id == "*")
+		{
+			var num = parseFloat(label.text());
+			if(op == 0)
+			{
+				ret = num;
+			}
+			else
+			{
+				ret = ret * num;
+			}
+			op = 3;
+		}
+		else if(id == "/")
+		{
+			var num = parseFloat(label.text());
+			if(op == 0)
+			{
+				ret = num;
+			}
+			else
+			{
+				ret = ret / num;
+			}
+			op = 4;
+		}
+		else if(op != 0 && id == "=")
+		{
+			if(op == 1)
+			{
+				op = 1;
+				var num = parseFloat(label.text());
+				print(num);
+				ret = ret + num ;
+			}
+			else if(op == 2)
+			{
+				op = 2;
+				var num = parseFloat(label.text());
+				ret = ret - num;
+			}
+			else if(op == 3)
+			{
+				op = 3;
+				var num = parseFloat(label.text());
+				ret = ret * num;
+			}
+			else if(op == 4)
+			{
+				op = 4;
+				var num = parseFloat(label.text());
+				ret = ret / num;
+			}
+			
+			label.setText(ret);
+			ret = 0;
+			op = 0;
+			flag = 1;
+			
+			return;
+		}
+		else if(id == "MC")
+		{
+			op = 0;
+			ret = 0;
+			print("MC Comp");
+		}
+		
+		print("Called");
+		label.setText("");
+		print("Called");
+	}
+	else
+	{
+		var t = label.text();
+		print("id" + t);
+		label.setText(t + id);
+	}
+}
+
+@func operatorButton(title, x, y)
+{
+	var plusButton = new Button();
+	
+	plusButton.setText(title);
+	plusButton.setSize(buttonSize, buttonSize);
+	plusButton.setPosition(x * buttonSize, y * buttonSize);
+	plusButton.setClick("click(\""+title+"\")");
+	
+	window.addComponent(plusButton.obj);
+}
+
+// @func cl(v)
+// {
+// 	print(v);
+// }
+
+@func main()
+{
+	window = new Window();
+	window.showWindow("Caculater");
+	
+// 	var bu = new Button();
+// 	bu.setText("Hello World");
+// 	bu.setClick("cl(12);");
+// 	bu.setPosition(200,200);
+// 	window.addComponent(bu.obj);
+	var buttonArray = new Array();
+	
+	for(var i = 0; i < 10;i++)
+	{
+		buttonArray[i] = new Button();
+		buttonArray[i].setText(i + 1);
+		buttonArray[i].setSize(buttonSize,buttonSize);
+		buttonArray[i].setPosition(buttonSize + (i % 3) * buttonSize, buttonSize + (i / 3) * buttonSize);
+		
+		buttonArray[i].setClick("click("+(i + 1)+");");
+		window.addComponent(buttonArray[i].obj);
+	}
+
+	buttonArray[9].setPosition(2 * buttonSize, 4 * buttonSize);
+	buttonArray[9].setText(0);
+	buttonArray[9].setClick("click(0)");
+	buttonArray[0].setText(1);
+	
+	operatorButton("+", 4, 1);
+	operatorButton("-", 4, 2);
+	operatorButton("*", 4, 3);
+	operatorButton("/", 4, 4);
+	operatorButton("=", 5, 1);
+	operatorButton("MC", 5, 2);
+	label = new Label();
+	
+	label.setSize(300,20);
+	
+	label.setPosition(30,10);
+	
+	window.addComponent(label.obj);
+}

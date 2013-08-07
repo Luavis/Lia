@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\IPCObject\bin\Debug\IPCObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\IPCObject\bin\Debug\IPCObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\IPCObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\IPCObject\obj\Debug\IPCObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\IPCObject\obj\Debug\IPCObject.pdb

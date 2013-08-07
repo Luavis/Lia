@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\InstallRegister\bin\Debug\InstallRegister.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\InstallRegister\bin\Debug\InstallRegister.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\InstallRegister\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\InstallRegister\obj\x86\Debug\InstallRegister.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\LiaVM\InstallRegister\obj\x86\Debug\InstallRegister.pdb

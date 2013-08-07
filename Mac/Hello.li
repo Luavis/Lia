@@ -1,0 +1,10 @@
+@func main()
+{
+	var obj;
+	print(obj);
+	obj = dyGen("LiaWindow");
+	print(obj);
+	dyCall(obj,"showWindow:",[]);
+	dyCall(obj,"setTitle:",["Hello World"]);
+
+}
